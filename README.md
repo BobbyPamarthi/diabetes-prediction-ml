@@ -143,7 +143,33 @@ This opens two browser tabs automatically:
 
 ## 📈 ROC Curves
 
-All ROC curves are saved in the `plots/` folder and displayed in the dashboard.
+### Individual Models
+
+<table>
+  <tr>
+    <td align="center"><b>Logistic Regression</b><br><img src="plots/roc_Logistic_Regression.png" width="320"/></td>
+    <td align="center"><b>K-Nearest Neighbors</b><br><img src="plots/roc_K_Nearest_Neighbors.png" width="320"/></td>
+    <td align="center"><b>AdaBoost</b><br><img src="plots/roc_AdaBoost.png" width="320"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Naive Bayes</b><br><img src="plots/roc_Naive_Bayes.png" width="320"/></td>
+    <td align="center"><b>Decision Tree</b><br><img src="plots/roc_Decision_Tree.png" width="320"/></td>
+    <td align="center"><b>Random Forest</b><br><img src="plots/roc_Random_Forest.png" width="320"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>XGBoost</b><br><img src="plots/roc_XGBoost.png" width="320"/></td>
+    <td align="center" colspan="2"><b>Ensemble (RF + XGB + ANN)</b><br><img src="plots/ensemble_roc.png" width="320"/></td>
+  </tr>
+</table>
+
+### ANN Training Curves
+
+<table>
+  <tr>
+    <td align="center"><b>Accuracy over Epochs</b><br><img src="plots/ann_accuracy.png" width="480"/></td>
+    <td align="center"><b>Loss over Epochs</b><br><img src="plots/ann_loss.png" width="480"/></td>
+  </tr>
+</table>
 
 ---
 
