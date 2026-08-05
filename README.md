@@ -133,11 +133,22 @@ This opens two browser tabs automatically:
 - ROC curve plots for every model
 - ANN training accuracy & loss curves
 
+![Dashboard](screenshots/dashboard.png)
+
+---
+
 ### Patient Prediction Form (Port 5001)
 - Input: Gender, Age, BMI, HbA1c, Blood Glucose, Hypertension, Heart Disease, Smoking
 - Powered by the saved Random Forest model (96.67% accuracy)
 - Returns risk probability (0–100%) with color-coded result
 - Personalised health recommendations
+
+<table>
+  <tr>
+    <td align="center"><b>Input Form</b><br><img src="screenshots/predict_form.png" width="480"/></td>
+    <td align="center"><b>Prediction Result (High Risk)</b><br><img src="screenshots/predict_result.png" width="480"/></td>
+  </tr>
+</table>
 
 ---
 
